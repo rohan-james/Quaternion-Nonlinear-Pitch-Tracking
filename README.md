@@ -2,13 +2,13 @@
 
 A Python implementation of rigid-body quaternion kinematics, nonlinear PD/PID attitude regulation and tracking, and a high-fidelity missile pitch channel simulation under aerodynamic disturbances and actuator constraints.
 
-## 🚀 Overview
+## Overview
 
 This repository contains simulation code and mathematical derivations for advanced attitude determination and control systems (ADCS). The project bridges rigorous Lyapunov stability theory with practical engineering constraints such as actuator saturation, first-order lag dynamics, and aerodynamic moment uncertainties.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Rigorous Attitude Representation:** Uses scalar-first unit quaternions ($q = [q_0, q_v^T]^T$) with Baumgarte-type norm-constraint stabilization to prevent numerical drift. Also implements Direction Cosine Matrices (DCM), Euler angles, and Modified Rodrigues Parameters (MRP).
 - **Nonlinear PD/PID Attitude Control:** 
@@ -23,7 +23,7 @@ This repository contains simulation code and mathematical derivations for advanc
 
 ---
 
-## 📊 Simulation Scenarios
+## Simulation Scenarios
 
 1. **Scenario 1: Rest-to-Rest Regulation**
    - Regulates a rigid body from a $70^\circ$ initial rotation to identity attitude.
@@ -36,7 +36,7 @@ This repository contains simulation code and mathematical derivations for advanc
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8+ 
